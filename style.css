@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+.main{
+
+}
+.first{
+    width: 100%;
+    height: 95vh;
+    background-color: #404eed;
+}
+.second{
+    width: 100%;
+    height:95vh;
+}
+.third{
+    width: 100%;
+    height: 99vh;
+    background-color: #f6f6f6;
+
+}
+.forth{
+    width: 100%;
+    height:100vh;
+}
+.fifth{
+    width: 100%;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+.sixth{
+    width: 100%;
+    height: 60vh;
+    background-color: #f6f6f6;
+}
+.seventh{
+    width: 100%;
+    height: 93vh;
+    background-color:#23272a;
+}
