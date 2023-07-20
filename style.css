@@ -308,4 +308,40 @@ h1{
 }
 
 
-/* transition */
+
+/* Aniamtion */
+.trans1{
+    
+    animation: fadeIn 1s ease 1s both;
+
+}
+.trans2{
+    
+    animation: fadeIn 1s ease 2s both;
+
+}
+.trans3{
+    
+    animation: fadeIn 1s ease 3s both;
+
+}
+.trans4{
+    
+    animation: fadeIn 1s ease 4s both;
+
+}
+.trans5{
+    
+    animation: fadeIn 1s ease 5s both;
+
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: no-preference) {
+    .animation-element {
+        animation: fadeIn 1s forwards;
+    }
+}
